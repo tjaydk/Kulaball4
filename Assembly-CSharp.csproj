@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D2F54DE3-A49E-F924-E046-9D5DA165A852}</ProjectGuid>
+    <ProjectGuid>{1515F819-1B09-3C8A-53BE-1CDCFFF8A53B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,7 +52,10 @@
      <Compile Include="Assets\scripts\MenuBall.cs" />
      <Compile Include="Assets\scripts\MenuScript.cs" />
      <Compile Include="Assets\scripts\MouseOrbit.cs" />
+     <Compile Include="Assets\scripts\OrangeScript.cs" />
      <Compile Include="Assets\scripts\PlaygroundScript.cs" />
+     <Compile Include="Assets\scripts\RedBlockScript.cs" />
+     <Compile Include="Assets\scripts\UnstableBlockScript.cs" />
      <Compile Include="Assets\scripts\script.cs" />
      <None Include="Assets\Fonts\Space.txt" />
      <None Include="Assets\maps\SpaceShader.shader" />
@@ -69,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{F986435F-9AF7-2446-9EDA-F760E02AA191}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{72D3A690-C6DC-1B2A-8D44-841C789AC9CE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

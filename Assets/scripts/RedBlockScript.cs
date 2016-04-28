@@ -13,7 +13,7 @@ public class RedBlockScript : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter(Collision col){
+	void OnCollisionEnter(Collision col){
 		if (col.gameObject.name == "RollerBall") {
 			this.gameObject.AddComponent<Rigidbody>().useGravity = true;
 			Destroy (this.gameObject, 3f);
