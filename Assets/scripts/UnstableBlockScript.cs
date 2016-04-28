@@ -19,9 +19,9 @@ public class UnstableBlockSrcipt : MonoBehaviour {
 		}
 	}
 
-	IEnumerable destroyBlock() {
+	IEnumerator destroyBlock() {
 		yield return new WaitForSeconds (0.5f);
-		this.gameObject.AddComponent<RigidBody>().useGravity = true;
+		this.gameObject.AddComponent<Rigidbody>().useGravity = true;
 		Destroy (this.gameObject, 3f);
 	}
 
